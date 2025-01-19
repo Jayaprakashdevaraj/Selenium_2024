@@ -3,11 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="week5.day2.EditLead"/>
-      <class name="week5.day2.CreateLead"/>
-      <class name="week5.day2.DeleteLead"/>
-      <class name="week5.day2.FindLead"/>
-      <class name="week5.day2.MergeLead"/>
+      <class name="week6.day1.LearnTestNGAnnotator"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
