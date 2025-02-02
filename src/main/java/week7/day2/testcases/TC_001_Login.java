@@ -9,11 +9,11 @@ public class TC_001_Login extends ProjectSpecficMethod{
 	
 	@Test
 	public void login() {
-		LoginPage lp = new LoginPage();
+		LoginPage lp = new LoginPage(driver);
 		
 		lp.enterUserName()
 		.enterPassword()
-		.ClickLogin();
+		.clickLoginButton();
 		
 	}
 
